@@ -1,13 +1,17 @@
 .navbar-brand img{
     width: 120px;
 }
+.navbar{
+   padding: 15px;
+}
 .navbar-brand{
     margin:0;
     padding: 0 1em;
 }
 .navbar-nav{
     align-items: center;
-    gap: 45px;
+    justify-content: space-around;
+    width: 100%;
 }
 .navbar .navbar-nav .nav-link{
     color: #fff;
@@ -34,10 +38,9 @@ main{
 footer{
     background-color: rgb(0, 0, 0);
 }
-@media screen and (min-width:992px) {
+/*1200px es XL*/
+@media screen and (min-width:1200px) {
     .navbar-brand img{
-        width: 170px;
+        width: 150px;
     }
-   
-    
 }
