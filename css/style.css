@@ -18,17 +18,44 @@
     font-size: 1.1rem;
     padding: 0.5em 1em;
 }
+h1{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+h2{
+    font-family: "Merriweather", serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+.carousel{
+    padding: 40px;
+}
 .bg-black{
     background-color: rgb(0, 0, 0);
+}
+.bg-green{
+    background-color: rgb(202, 238, 201);
 }
 main{
     margin: 50px;
 }
-
+p{
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+section{
+    padding: 30px 0;
+}
 .d-img{
     height: 600px!important;
     width: 100%;
 }   
+.card-img-h{
+    height: 60%;
+}
 .nosotros , .secciones{
     display: flex;
     flex-direction: column;
